@@ -1,0 +1,5 @@
+themes: monokai pro, monokai classic
+
+turn word wrap on
+
+theme icon: seti icons

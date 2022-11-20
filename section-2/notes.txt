@@ -1,0 +1,4 @@
+javascript is a high-level object-oriented, multi-paradigm programming language.
+multi-paradigm: flexible and versatile, we can use all kinds of different programming styles such as declarative and imparative programming
+
+ES: ECMAScript
