@@ -12,3 +12,12 @@ in js it is the value that has the type, not the variable
 ⋆ Asterisk
 
 type of null is an object and this is a bug in js but never corrected for legacy reasons
+const for immutable variables
+
+basic operators:
+2**3 is 2 to the power 3
++-=*/ x+=
+
+operator precedence
+google mdn operator precedence (mdn for mosilla developer network)
+mdn is a well known and widely used documentation site
