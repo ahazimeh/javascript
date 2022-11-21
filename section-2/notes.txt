@@ -21,3 +21,7 @@ basic operators:
 operator precedence
 google mdn operator precedence (mdn for mosilla developer network)
 mdn is a well known and widely used documentation site
+
+to write on multiple lines(it works because of a bug in the language):
+'hsdjfhsd \n\
+dshfuisdhf'
