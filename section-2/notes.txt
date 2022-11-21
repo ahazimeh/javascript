@@ -25,3 +25,6 @@ mdn is a well known and widely used documentation site
 to write on multiple lines(it works because of a bug in the language):
 'hsdjfhsd \n\
 dshfuisdhf'
+
+if else statement is called if else control structure
+because this structure actually allows us to have more control over the way our code is executed
