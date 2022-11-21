@@ -2,3 +2,13 @@ javascript is a high-level object-oriented, multi-paradigm programming language.
 multi-paradigm: flexible and versatile, we can use all kinds of different programming styles such as declarative and imparative programming
 
 ES: ECMAScript
+
+name is a reserved word but it is allowed to use, still it could cause some problems
+
+data types: Number, String, Boolean, Undefined, Null, Symbol(es2015-value that is unique and cannot be changed), BigInt(es2020-larger than Number)
+
+in js it is the value that has the type, not the variable
+
+⋆ Asterisk
+
+type of null is an object and this is a bug in js but never corrected for legacy reasons
