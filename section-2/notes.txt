@@ -28,3 +28,14 @@ dshfuisdhf'
 
 if else statement is called if else control structure
 because this structure actually allows us to have more control over the way our code is executed
+
+type conversion and coercion
+type conversion is when we manually convert from one type to another
+type coercion is when js automatically converts types behind the scenes for us
+type conversion:
+Number('1991'), String(12)
+typeof NaN is a number
+js can convert to a number, to a string, and to a boolean
+type coercion:
+like concatinating string with a number
+for + numbers are converted to strings and for -, *, ** and / the opposite happens
