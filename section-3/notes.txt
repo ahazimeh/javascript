@@ -28,3 +28,13 @@ defining array: new Array() or []
 array.push and array.unshift will return the new length of the array
 array.pop and array.shift returns the removed element
 array.indexOf, array.includes
+
+keys in object are called properties
+defining an object this way {} is called object literal syntax
+
+any function that is attached to an object is called a method
+const jonas = {
+    calcAge: function(birthday) {
+        return ...
+    }
+}
