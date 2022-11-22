@@ -39,3 +39,17 @@ js can convert to a number, to a string, and to a boolean
 type coercion:
 like concatinating string with a number
 for + numbers are converted to strings and for -, *, ** and / the opposite happens
+
+5 falsy values: 0, '', undefined, null, NaN (false is ofcourse false)
+ex: Boolean(0) will be false
+
+=== is strict equality operator
+== is the loose equality operator(this does equality type coercion)
+
+if else is a statement
+x = 5; 5 is an expression because it produces a values, 5*2 is an expression
+expressions produces values and statements are like full sentences that translates our actions
+
+in template literal we can only insert expressions
+
+convert back to es5 using a process called transpiling and also polyfilling
