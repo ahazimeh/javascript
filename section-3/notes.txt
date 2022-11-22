@@ -1,0 +1,23 @@
+"use strict";
+use strict should be the first line for it to work
+we can activate strict mode only for specific fn or block but no point in doing that
+
+strict mode forbids us to do certain things and create visible errors for us rather than js failing silently
+ex: like when updating a variable that isn't defined
+another thing that strict mode does is that it introduces a short list of variable names that are reserved for features that might be added to the language a bit later
+
+function logger() {}
+logger() // invoking the fn, running the fn, or calling the fn
+
+parameter is the placeholder in the function and the argument is then the actual value that we use to fill in that placeholder that is the parameter
+
+// function declaration
+function calcAge1() {
+
+}
+// function expression
+const calcAge2 = function () {
+
+}
+
+one of the main differences is that you can call function declaration before defining it
