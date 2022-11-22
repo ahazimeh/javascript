@@ -21,3 +21,10 @@ const calcAge2 = function () {
 }
 
 one of the main differences is that you can call function declaration before defining it
+
+defining array: new Array() or []
+[] is called the literal syntax
+
+array.push and array.unshift will return the new length of the array
+array.pop and array.shift returns the removed element
+array.indexOf, array.includes
