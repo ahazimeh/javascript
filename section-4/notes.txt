@@ -2,3 +2,7 @@ user snippet
 image preview is good for html
 settings sync is usefull to sync settings between vscode installations, if you have multiple computers or multiple accounts on your computer
 TODO Highlight
+
+to reload browser automatically:
+    install live server extension
+    install npm package called live-server, and now live-server command will run index.html or write live-server index.html
