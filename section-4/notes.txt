@@ -9,3 +9,5 @@ to reload browser automatically:
 https://stackoverflow.com/questions/1669190/find-the-min-max-element-of-an-array-in-javascript
 
 concat will return the result of merging 2 arrays
+
+console.log, console.error, console.warn, console.table
