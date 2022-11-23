@@ -6,3 +6,6 @@ TODO Highlight
 to reload browser automatically:
     install live server extension
     install npm package called live-server, and now live-server command will run index.html or write live-server index.html
+https://stackoverflow.com/questions/1669190/find-the-min-max-element-of-an-array-in-javascript
+
+concat will return the result of merging 2 arrays
