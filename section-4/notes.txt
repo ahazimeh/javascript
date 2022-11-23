@@ -1,0 +1,4 @@
+user snippet
+image preview is good for html
+settings sync is usefull to sync settings between vscode installations, if you have multiple computers or multiple accounts on your computer
+TODO Highlight
