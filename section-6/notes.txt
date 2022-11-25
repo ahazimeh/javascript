@@ -1,0 +1,13 @@
+favicons
+
+extension: auto rename tag
+auto close tag
+
+anchor tag is called an inline element because it flows inline with the rest of the text
+
+h2 element for example is called block element
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; // it will include paddings and borders into the width or the height that we specify for an element, ex width 100px with padding 20px will keep width 100px and not 140px
+}
