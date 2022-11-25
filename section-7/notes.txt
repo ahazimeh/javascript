@@ -1,0 +1,8 @@
+DOM: Document Object Model: a structured respresentation of html documents. Allows js to access html elements and styles to manipulate them
+dom is a connection point between html documents and js code.
+it is created by the browser automatically as soon as the html page loads and it is stored in a tree structure where each html element is 1 object
+everything in the html element should be also in the dom
+
+the dom is not a part of js, the dom and dom methods are part of web apis
+web apis are like libraries that browsers implement and we can access from our js code
+there is actually official dom specification that browsers implement which is the reason why dom manipulation works the same in all browsers
