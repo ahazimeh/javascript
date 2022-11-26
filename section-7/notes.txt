@@ -6,3 +6,7 @@ everything in the html element should be also in the dom
 the dom is not a part of js, the dom and dom methods are part of web apis
 web apis are like libraries that browsers implement and we can access from our js code
 there is actually official dom specification that browsers implement which is the reason why dom manipulation works the same in all browsers
+
+keypress is continuously as we keep our finger on a certain key
+key down is fired as soon as we press down the key
+key up is fired as soon as we press up the key
