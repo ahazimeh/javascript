@@ -85,3 +85,8 @@ never use an arrow fn as a method because the this keyword will act in a weird w
 arguments keyword is to get the arguments inside a fn but it doesn't exist in an arrow fn
 
 objects are stored in the memory heap where primitives or primitive types are stored in the call stack(they are stored in the execution context in which they are declared)
+
+to copy an object without the reference
+    const jessicaCopy = Object.assign({}, jessica2)
+    but the problem here is that inner object will still the same for both objects
+    so Object.assign will make a shallow copy and not a deep clone
