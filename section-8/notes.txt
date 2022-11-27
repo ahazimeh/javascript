@@ -76,3 +76,10 @@ temporal dead zone is in a region where the variable is defined and can't be use
 
 hoisting was implemented so we can use function declarations before we use them, this is essential for some programming techniques such as mutual recursion
 it works for var declaration becuase that was the only way hoisting could be implemented at the time
+
+calling this in a top level function will point to windows we are not using strict mode, otherwise it will be undefined
+
+never use an arrow fn as a method because the this keyword will act in a weird way
+
+
+arguments keyword is to get the arguments inside a fn but it doesn't exist in an arrow fn
