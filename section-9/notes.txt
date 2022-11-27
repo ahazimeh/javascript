@@ -9,3 +9,6 @@ const {
   fri: { open: o, close: c },
 } = openingHours;
 console.log(o, c);
+
+the spread operator works on all iterables (arrays, strings, maps, or sets but not objects)
+we can only use the spread operator when building an array or when we pass values into a function
