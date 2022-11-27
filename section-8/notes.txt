@@ -37,3 +37,16 @@ code will be parsed to ast then compiled to machine code and then it gets execut
 first js engine will produce an unoptimized version of the code so it starts fast and keep optimizing the code in the background
 
 js in node js doesn't have web apis but it uses c++ bindings & thread pool
+
+global execution context is created for top level code
+in the beginning only the code that is outside fns will be executed
+there is always 1 global execution context
+what is inside execution context
+    variables
+        let, const and var declaration
+        functions
+        arguments object
+    scope chain
+    this keyword
+this is generated in creation phase
+execution context belonging to arrow functions do not get argument keywords nor this keyword
