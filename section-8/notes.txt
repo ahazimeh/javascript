@@ -17,3 +17,23 @@ dynamic language: we don't assign types to variables
 concurrency model: how js engine handles multiple tasks at the same time
 js runs in one single thread and therefore we need a way of handling multiple things happening at the same time
 event loop takes long running tasks and executes them in the background
+
+js engine is a program that executes a js code
+js contains a call stack and a heap,
+call stack is where our code is executed using execution context
+heap is an unstructured memory pool which stores all the objects that our application needs
+
+compilation vs interpretation
+in compilation the entire source code is converted into machine code at once and this machine code is written into a portable file that can be exececuted on any computer
+
+interpretation is where code is read and exececuted line by line
+ofcourse the source code needs to be converted to machine coded but it happens write before it is executed and not a head of time
+
+js is used to be an interpreted language but it is much much slower but now with modern js, js engines use a mix between compilation and interpretation(just-in-time compilation)
+just-in-time compilation: compiles the entire code into machine code at once and then executes it write away
+
+code will be parsed to ast then compiled to machine code and then it gets executed
+
+first js engine will produce an unoptimized version of the code so it starts fast and keep optimizing the code in the background
+
+js in node js doesn't have web apis but it uses c++ bindings & thread pool
