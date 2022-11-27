@@ -67,3 +67,12 @@ starting from ES6 all functions are block scoped, at least in strict mode
 variable lookup: scopes lookup in the scope chain untill they find the variable that they need
 
 by the rule of lexical scoping sibling scopes don't have access to each others' variables
+
+Hoisting: Makes some types of variables accessible/usable in the code before they are actually declared. "Variables lifted to the top of their scope".
+BEHIND THE SCENES
+Before execution, code is scanned for variable declarations, and for each variable, a new property is created in the variable environment object.
+
+temporal dead zone is in a region where the variable is defined and can't be used, it is between the beginning of the scope and the defining of the variable
+
+hoisting was implemented so we can use function declarations before we use them, this is essential for some programming techniques such as mutual recursion
+it works for var declaration becuase that was the only way hoisting could be implemented at the time
