@@ -1,0 +1,19 @@
+js is a high-level prototype-based object-oriented multi-paradigm interpreted or just-in-time programming language with first-class functions and non-blocking event loop concurrency model
+
+human readable code to machine code: compiling or interpreting
+paradigm: An approach and mindset of structuring code, which will direct your coding style and technique:
+popular paradigm:
+    procedural programming
+    oop
+    functional programming(FP)
+js does all of the above
+
+object oriented nature of js it is a prototype based object oriented approach, almost everything in js is an object except for premetive values
+
+js is a language with first class fn which means that fns are treated as regular values
+
+dynamic language: we don't assign types to variables
+
+concurrency model: how js engine handles multiple tasks at the same time
+js runs in one single thread and therefore we need a way of handling multiple things happening at the same time
+event loop takes long running tasks and executes them in the background
