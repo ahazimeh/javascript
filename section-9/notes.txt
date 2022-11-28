@@ -38,3 +38,8 @@ add(...x);
 console.log(3 || 'Jonas');
 ex: below 'Hello' will short circuit the entire operation
 console.log(undefined || 0 || '' || 'Hello' || 23 || null);
+
+ES2020 operator
+The Nullish Coalescing Operator (??), nullish values are null and undefined
+const guestsCorrect = restaurant.numGuests ?? 10;
+here only nullish values will short-circuit the evaluation
