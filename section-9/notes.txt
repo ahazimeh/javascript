@@ -43,3 +43,17 @@ ES2020 operator
 The Nullish Coalescing Operator (??), nullish values are null and undefined
 const guestsCorrect = restaurant.numGuests ?? 10;
 here only nullish values will short-circuit the evaluation
+
+ES2021 Logical OR Assignment Operators
+rest1.numGuests = rest1.numGuests || 10;
+rest1.numGuests ||= 10;
+Logical Nullish Assignment Operator
+rest1.numGuests ??= 10;
+
+we also have Logical AND Assignment Operators
+it assigns a value to a variable if it is truthy only
+so if it would return undefined nothing will be returned
+
+rest1.owner = rest1.owner && '<ANONYMOUS>';
+rest1.owner &&= '<ANONYMOUS>';
+so the first example above will return undefined to the object because rest1.owner is undefined whereas the second will return nothing
