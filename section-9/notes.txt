@@ -57,3 +57,21 @@ so if it would return undefined nothing will be returned
 rest1.owner = rest1.owner && '<ANONYMOUS>';
 rest1.owner &&= '<ANONYMOUS>';
 so the first example above will return undefined to the object because rest1.owner is undefined whereas the second will return nothing
+
+forof loop
+for (const item of menu) console.log(item);
+
+to get access to the index as well
+for (const item of menu.entries()) {
+  console.log(item);
+}
+console.log(...menu.entries());
+
+for (const [i, el] of menu.entries()) {
+  console.log(`${i + 1}: ${el}`);
+}
+
+Enhanced Object Literal
+rather than openingHours:openingHours, openingHours
+rather than order: function(){}, order(){}
+[weekdays[3]]: {} // so we can calculate the property names this way
