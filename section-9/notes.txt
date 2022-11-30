@@ -79,3 +79,8 @@ rather than order: function(){}, order(){}
 optional chaining: es2020
 with methods:
 console.log(restaurant.order?.(0, 1) ?? 'Method does not exist');
+
+
+const properties = Object.keys(openingHours);
+const values = Object.values(openingHours);
+const entries = Object.entries(openingHours);
