@@ -84,3 +84,6 @@ console.log(restaurant.order?.(0, 1) ?? 'Method does not exist');
 const properties = Object.keys(openingHours);
 const values = Object.values(openingHours);
 const entries = Object.entries(openingHours);
+
+// Sets
+const stuffUnique = [...new Set(staff)];
