@@ -87,3 +87,10 @@ const entries = Object.entries(openingHours);
 
 // Sets
 const stuffUnique = [...new Set(staff)];
+
+// Map
+new Map([[key, value],[key, value]])
+// Convert object to map
+console.log(Object.entries(openingHours));
+const hoursMap = new Map(Object.entries(openingHours));
+console.log(hoursMap);
