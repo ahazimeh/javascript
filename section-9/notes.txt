@@ -94,3 +94,20 @@ new Map([[key, value],[key, value]])
 console.log(Object.entries(openingHours));
 const hoursMap = new Map(Object.entries(openingHours));
 console.log(hoursMap);
+
+// which data structure to use?
+simple list of value -> arrays or sets
+key/value pairs -> objects or maps
+other built in: weekmap and weekset
+
+// arrays vs sets
+arrays when you need to store values and these values might contain duplicates, and when you need to manipulate data cuz there are tons of useful array methods
+set when you are working with unique values, and when high performance is really important, because operations like searching for an item or deleting an item from a set can be up to 10 times faster in sets than in array, another use case is to remove duplicate values from an array
+
+// objects vs maps
+objects has couple of technical disadvantages, maps offer better performance
+map keys can have any data type and also easy to iterate and to compute the size of the map
+objects are easy to write them and access data
+so you should use maps to map keys to values and also when you need keys that are not strings
+if you need functions as values then you should use an object for that
+and when working with json data you will use objects unless you want to convert the objects to maps
