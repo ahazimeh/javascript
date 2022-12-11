@@ -10,3 +10,11 @@ to set the this keyword
 book.call(swiss, 583, 'Marry Cooper');// so this will be set to swiss
 similarly for apply but it takes an array rather than a lot of args
 book.apply(swiss, [583, 'Marry Cooper']);
+
+// Bind is better because it returns a new function that is bind to certain object
+const bookEW = book.bind(eurowings);
+and we can also set parameters
+const bookEW23 = book.bind(eurowings,23) // so when we use bookWE23 the first param will be set automatically to 23
+this is called partial application (a part of the arguments of the original function are already applied)
+
+when using callback function the this keyword points to the original function
