@@ -18,3 +18,13 @@ const bookEW23 = book.bind(eurowings,23) // so when we use bookWE23 the first pa
 this is called partial application (a part of the arguments of the original function are already applied)
 
 when using callback function the this keyword points to the original function
+
+Immediately Invoked Function Expressions (IIFE):
+(function () {
+  console.log('This will never run again');
+})();
+this can be used to keep variables declared private
+but we can also use a code block
+{
+  const private = 23;
+}
