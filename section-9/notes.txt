@@ -111,3 +111,9 @@ objects are easy to write them and access data
 so you should use maps to map keys to values and also when you need keys that are not strings
 if you need functions as values then you should use an object for that
 and when working with json data you will use objects unless you want to convert the objects to maps
+
+// Strings
+whenever we call a method on a string, js behind the scenes will convert the string primitive to object with the same content, and then on that object where the method is called, this is called boxing it takes our string and puts it into a box which is the object
+new String()
+and when the operation is done the object is converted back to regular string primitive, all string methods return primitives
+slice, indexOf, lastIndexOf
