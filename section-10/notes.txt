@@ -2,3 +2,11 @@ higher order function:
 a fn that receives another fn as an argument, that returns a new function, or both
 first class fn:
 first class functions means that all functions are values, so it is just a concept
+
+fn.name to get the name of a fn
+
+call and apply methods:
+to set the this keyword
+book.call(swiss, 583, 'Marry Cooper');// so this will be set to swiss
+similarly for apply but it takes an array rather than a lot of args
+book.apply(swiss, [583, 'Marry Cooper']);
