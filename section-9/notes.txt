@@ -117,3 +117,8 @@ whenever we call a method on a string, js behind the scenes will convert the str
 new String()
 and when the operation is done the object is converted back to regular string primitive, all string methods return primitives
 slice, indexOf, lastIndexOf
+
+trimStart and trimEnd es2019
+console.log(message.padStart(25, '+')); // (padding) add + before the string till the string length reaches 25
+
+message.repeat(5) // will generate a long string concatinating message 5 times
