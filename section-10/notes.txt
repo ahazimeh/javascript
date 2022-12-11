@@ -28,3 +28,38 @@ but we can also use a code block
 {
   const private = 23;
 }
+
+// Closures
+a closure makes a function remember all the variables that existed at the function birthplace
+const secureBooking = function () {
+  let passengerCount = 0;
+
+  return function () {
+    passengerCount++;
+    console.log(`${passengerCount} passengers`);
+  };
+};
+
+const booker = secureBooking();
+
+booker();
+booker();
+booker();
+// so a funcion always has access to the variables environment of the execution context in which it was created event after that execution context is gone
+we can say that the booker function closed over its parent scope or over its parent environment including all function arguments
+and note that the closure have priority over the scope chain
+so if the same variable exists in the scope chain and the closure, the function will use the closure variable
+
+CLOSURES SUMMARY
+A closure is the closed-over variable environment of the execution context in which a function was created, even after that
+execution context is gone;
+Less formal
+A closure gives a function access to all the variables of its parent function, even after that parent function has returned. The
+function keeps a reference to its outer scope, which preserves the scope chain throughout time.
+↓Less formal
+A closure makes sure that a function doesn't loose connection to variables that existed at the function's birth place;
+Less formal
+Function Connection Parent scope Variables
+A closure is like a backpack that a function carries around wherever it goes. This backpack has all the variables that were
+present in the environment where the function was created.
+[[Scopes]] these double brackets means it is an internal property that we can't access from our code
