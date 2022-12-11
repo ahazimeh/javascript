@@ -63,3 +63,16 @@ Function Connection Parent scope Variables
 A closure is like a backpack that a function carries around wherever it goes. This backpack has all the variables that were
 present in the environment where the function was created.
 [[Scopes]] these double brackets means it is an internal property that we can't access from our code
+console.dir(booker) will let us see the closures
+
+another example:
+let f;
+const g = function () {
+  const a = 23;
+  f = function () {
+    console.log(a * 2);
+  };
+};
+g();
+f();
+where f() will have access to a variable
